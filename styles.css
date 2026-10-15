@@ -65,3 +65,12 @@ footer{background:#1d2b35;color:#e1e9ee}
 @media(max-width:900px){.hero{grid-template-columns:51% 49%}.hero h1{font-size:clamp(49px,7.6vw,75px)}.hero-photo img{width:94%;right:-18%}.hero-hifi{width:67%;bottom:17%}.hifi-unit{min-height:90px;padding:10px}.unit-name{font-size:19px}}
 @media(max-width:650px){.site-header{padding:14px 20px}.navigation{background:#202b34}.hero{display:flex;flex-direction:column;min-height:0}.hero-text{padding:53px 25px 35px}.hero h1{font-size:clamp(53px,13.4vw,78px)}.hero-photo{height:430px;min-height:430px}.hero-photo img{right:-3%;width:77%;object-position:center top}.hero-hifi{left:4%;bottom:19%;width:55%}.hifi-unit{min-height:78px;padding:7px;border-width:4px}.unit-name{font-size:16px}.unit-knobs{font-size:15px}.hifi-label{font-size:7px}.hero-photo-note{right:12px;bottom:12px;font-size:7px}.topics{padding:44px 18px}.card-visual{height:140px}.topic-body{min-height:190px}.topic-body h3{font-size:18px}.brands-showcase{margin:0 14px 25px;min-height:510px;padding:40px 25px 120px}.brands-art{width:110%;top:20%;right:-50%;opacity:.45}.brands-strip{left:24px;right:24px;bottom:20px;gap:12px;justify-content:flex-start}.brands-strip span{font-size:14px}.feature-copy{padding:38px 24px 52px}.community{padding:50px 24px}}
 @media(max-width:380px){.topic-grid{grid-template-columns:1fr}.topic-body{min-height:130px}}
+
+
+/* Imágenes editoriales individuales de cada módulo */
+.topic-card .card-visual{background-position:center;background-size:cover;background-repeat:no-repeat}
+.topic-card .visual-audio{background-image:url("assets/card-audio.svg")}
+.topic-card .visual-story{background-image:url("assets/card-historias.svg")}
+.topic-card .visual-tech{background-image:url("assets/card-tecnologia.svg")}
+.topic-card .visual-reels{background-image:url("assets/card-reels.svg")}
+.topic-card .card-visual>*{display:none}
