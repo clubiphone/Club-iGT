@@ -74,3 +74,11 @@ footer{background:#1d2b35;color:#e1e9ee}
 .topic-card .visual-tech{background-image:url("assets/card-tecnologia.svg")}
 .topic-card .visual-reels{background-image:url("assets/card-reels.svg")}
 .topic-card .card-visual>*{display:none}
+
+
+/* Portada aprobada: fotografía editorial subida por el propietario */
+.hero-photo{background-image:url("assets/asddd_upscayl_2x_upscayl-standard-4x.webp");background-repeat:no-repeat;background-color:#e8e9e9;background-size:190% auto;background-position:99% 12%}
+.hero-photo img,.hero-hifi,.hero-photo-note{display:none!important}
+.hero-photo:before{background:linear-gradient(90deg,#f1f2f3 0%,transparent 15%),linear-gradient(0deg,#f1f2f3 0%,transparent 13%)}
+@media(max-width:900px){.hero-photo{background-size:205% auto;background-position:99% 12%}}
+@media(max-width:650px){.hero-photo{background-size:175% auto;background-position:100% 13%;min-height:440px;height:440px}.hero-photo:before{background:linear-gradient(0deg,#f1f2f3 0%,transparent 14%)}}
